@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Netflix</title>
+    <link rel="stylesheet" href="net home.css">
+</head>
+<body>
+    <div class="start">
+        <video id="bgvideo" autoplay muted loop>
+            <source src="title-artist.mp4" type="video/mp4">
+        </video>
+        <div class="navbar">
+        <div class="menu">
+            <img src="logo.png">
+            <ul class="smenu">
+                <li class="browse">BROWSE<br>
+                <ul class="dropdown">
+                    <li><a>HOME</a></li>
+                    <li><a>TV SHOWS</a></li>
+                    <li><a>MOVIES</a></li>
+                    <li><a>NEW & POPULAR</a></li>
+                    <li><a>MY LIST</a></li>
+                    <li><a>BROWSE BY LANGUAGES</a></li>
+                </ul>
+            </ul>
+            <ul class="allmenu">
+                <li><a>HOME</a></li>
+                <li><a>TV SHOWS</a></li>
+                <li><a>MOVIES</a></li>
+                <li><a>NEW & POPULAR</a></li>
+                <li><a>MY LIST</a></li>
+                <li><a>BROWSE BY LANGUAGES</a></li>
+            </ul>
+            <div class="info">
+                <img src="searchicon1.png">
+                <p>children</p>
+                <img src="notific logo.png">
+                <img class="aclogo" src="ac logo.png">
+            </div>
+        </div>
+    </div>
+        <div class="videoname">
+            <img src="wednesday.png" class="wednesday">
+            <p>Bored with being thhe Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective</p>
+            <img src="playbutton.png" class="play">
+            <img src="moreinfo.png" class="more">
+        </div>
+    </div>
+    <div class="trending">
+        <p>TRENDING NOW</p>
+        <img src="mov (1).jpg">
+        <img src="mov (2).jpg">
+        <img src="mov (3).jpg">
+        <img src="mov (4).jpg">
+        <img src="mov (5).jpg">
+        <img src="mov (6).jpg">
+        <img src="mov25.jpeg">
+        <img src="mov26.jpeg">
+        <img src="mov27.jpeg">
+        <img src="mov28.jpeg">
+    </div>
+    <div class="movies">
+        <p>CRITICALLY ACCLAIMED TV SHOWS</p>
+        <img src="mov1.jpeg">
+        <img src="mov2.jpeg">
+        <img src="mov3.jpeg">
+        <img src="mov4.jpeg">
+        <img src="mov5.jpeg">
+        <img src="mov6.jpg">
+        <img src="mov7.jpg">
+        <img src="mov8.jpg">
+    </div>
+    <div class="movies">
+        <p>MARVEL</p>
+        <img src="mov9.jpeg">
+        <img src="mov10.jpeg">
+        <img src="mov11.jpeg">
+        <img src="mov12.jpeg">
+        <img src="mov13.jpeg">
+        <img src="mov14.jpeg">
+        <img src="mov15.jpeg">
+        <img src="mov16.jpeg">
+    </div>
+    <div class="movies">
+        <p>SCI-FI</p>
+        <img src="mov17.jpeg">
+        <img src="mov18.jpeg">
+        <img src="mov19.jpeg">
+        <img src="mov20.jpeg">
+        <img src="mov21.jpeg">
+        <img src="mov22.jpeg">
+        <img src="mov23.jpeg">
+        <img src="mov24.jpeg">
+    </div>
+    <div class="movies">
+        <p>NETFLIX MIX</p>
+        <img src="mov (7).jpg">
+        <img src="mov (8).jpg">
+        <img src="mov (9).jpg">
+        <img src="mov (10).jpg">
+        <img src="mov (11).jpg">
+        <img src="mov (12).jpg">
+        <img src="mov (13).jpg">
+        <img src="mov (14).jpg">
+    </div>
+    <div class="footer">
+        <img src="fb logo.png">
+        <img src="insta logo.png">
+        <img src="twitter logo.png">
+        <img src="YT logo.png">
+        <div>
+            <ul class="flist">
+                <li><a href="">Audio Description</a></li>
+                <li><a href="">Gift Cards</a></li>
+                <li><a href="">Inventor Relations</a></li>
+                <li><a href="">Term of Use</a></li>
+                <li><a href="">Legal Notices</a></li>
+                <li><a href="">Corporate Information</a></li>
+                <li><a href="">Help Centre</a></li>
+                <li><a href="">Media Centre</a></li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Cookie Preferences</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <button type="button">Service Code</button>
+        <p>© 1997-2023 Netflix, Inc.</p>
+    </div>
+</body>
+</html>
+
+
+<script>
+    window.addEventListener('resize', function() {
+        if (window.innerWidth < window.screen.width / 1.5) {
+            document.querySelector('.allmenu').style.display = 'none';
+            document.querySelector('.smenu').style.display = 'inline-block';
+        } else {
+            document.querySelector('.allmenu').style.display = 'inline-block';
+            document.querySelector('.smenu').style.display = 'none';
+        }
+    });
+</script>
